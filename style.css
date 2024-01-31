@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body, button, input, select, textarea {
+    font-family: "Heebo", sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #fff;
+    height: 8rem;
+}
+
+header #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    height: 8rem;
+}
+
+header #navbar .nav-brand {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+
+header #navbar .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: #555;
+    transition: color 0.3s;
+}
